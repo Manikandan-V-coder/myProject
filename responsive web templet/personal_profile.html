@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My/personal/profile/website</title>
+	<meta charset="utf-8">
+	 <link rel = "icon" href = "E:\html\icon\avengers.png" type = "image/x-icon"> 
+	<meta name="viewport " content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="E:\html\project\style\font-awesome-4.7.0\css\font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+	<header class="header">
+	             <div class="profile" ng-app="myprofile">
+			
+		 <a href="#" class="logo">Logo</a>
+		 <div class="menu-toggle"></div>
+		   <nav>
+			  <ul>
+		    	    <li class="toggle"><a href="#home" class="active"><span class="fa fa-home"></span> Home</a></li>
+		            <li class="toggle"><a href="#profile"><span class="fa fa-user-o"></span> Profile</a></li>
+		            <li class="toggle"><a href="#certification"><span class="fa fa-sun-o"></span> Certification</a></li>
+		            <li class="toggle"><a href="#projects"><span class="fa fa-cogs"></span> Projects</a></li>
+				    <li class="toggle"><a href="#skils"><span class="fa fa-mortar-board"></span> Skills</a></li>
+				    <li class="toggle"><a href="#contact"> <span class="fa fa-address-book"></span> Contact</a></li>
+		     </ul>
+		
+		  </nav>
+		  <div class="clearfix"></div>
+	
+       </header>
+  
+</div>
+      <div class="section">
+<section id="home" class="home">
+	
+</section>
+
+<section id="profile" class="profile">
+	</section>
+
+<section id="certification" class="certification">
+
+</section>
+
+<section id="projects" class="projects">
+	
+</section>
+
+<section id="skils" class="skills">
+
+</section>
+
+<section id="contact" class="contact">
+	<div class="footer"> 
+	<nav>
+		<ul>
+			 <li><a href="" class="active"><span class="fa fa-whatsapp"></span></a></li>
+		     <li><a href=""><span class="fa fa-instagram"></span></a></li>
+	         <li><a href=""><span class="fa fa-twitter"></span></a></li>
+		     <li><a href=""><span class="fa fa-phone"></span></a></li>
+			</ul>
+	</nav>
+</div>
+
+</section>
+	</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.menu-toggle').click(function(){
+			$('.menu-toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		});
+		$('.toggle').click(function(){
+			$('.menu-toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		});
+	});
+</script>
+</body>
+</html>
