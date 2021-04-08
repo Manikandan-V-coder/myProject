@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Account validation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- inner stylish sheet-->
+<style>
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 7px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: red;
+}
+
+input, select{
+border: 1px solid;
+border-radius: 15px;
+width: 60%;
+background-color: white;
+padding: 6px;
+}
+
+li
+{
+display:inline;
+}
+#field
+{
+color:red;
+}
+
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: #222222;
+  padding: 1px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 550px; 
+  background: #ccc;
+  padding: 30px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 35px;
+  width: 70%;
+  background-color: #F1F1F1;
+  height: 550px;
+}
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+span{
+  color: red;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body bgcolor=#666>
+
+
+<form name="forms"  onsubmit="validation()" method="post">
+
+
+
+<header>
+<h2 style="color:#ce9f76;">Welcome To Sign Up Page</h2>
+</header>
+
+<p>
+<section>
+  <nav>
+    <ul>
+<p style="font-size:120%"><span style="color:red">* </span>Required</p>
+  <p style="font-size:120%;"><b><ins>Note:</ins></b>This website only for create an account. Cannot achive <i><ins>forget password</ins></i> and <i><ins>Login</ins></i> a perticular user</p>
+      </ul>
+  </nav>
+
+<article>
+<form>
+<center>
+
+  <label style="font-size:130%">First Name:<span><sup>*</sup></span></label>
+   <br>
+<input  type="text" id="fname" name="fname" placeholder="First Name" >
+   <br>   <br>
+    <label style="font-size:130%">Last name:<span><sup>*</sup></span></label>
+   <br>
+ <input type="text"  id="lname" name="lname" placeholder="Last Name" >
+ <br>
+   <br>
+
+   <label style="font-size:130%">Gender:<span><sup>*</sup></span></label>
+   <br>
+
+<SELECT>
+   <option id="gender" value="">Select Gender</option>
+  <option id="gender" value="male">Male</option>
+  <option id="gender" value="female">Female</option>
+</SELECT>
+    <br>   <br>
+
+ <label style="font-size:130%">E-mail Id:<span ><sup>*</sup></span></label>
+   <br> 
+
+<input type="email" id="eid" name="eid" placeholder="E-Mail ID">
+   <br>   <br>
+
+    <label style="font-size:130%">Password:<span ><sup>*</sup></span></label>
+   <br>
+
+<input type="password" id="pass" name="pass" placeholder ="Password">
+<br>   <br>
+
+<label style="font-size:130%">Confirm Password<span><sup>*</sup></span></label>
+   <br>
+
+<input type="password" id="cpass" name="cpass" placeholder="Confirm Password" >
+<br>
+   <br><br>
+   <input type="submit" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.5" name="submit" value="Create an account" style="padding:10px;background-color:green;color:#FFFFFF"/>
+
+</article>
+</section>
+
+</center>
+<script src="form_script.js"></script>
+</body>
+</form>
+</html>
+
+
