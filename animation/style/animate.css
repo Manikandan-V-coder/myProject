@@ -1,0 +1,127 @@
+.road{
+			position: fixed;
+			left: -10px;
+			right: -10px;
+			top: -10px;
+		
+
+		}
+		.car1{
+			position: absolute;
+			top: 62%;
+			left: 0;
+			animation:car 10s reverse infinite linear;
+		}
+		 .cloud1{
+              position: absolute;
+              top:5%;
+              left:10;
+              animation:car 35s infinite linear;
+             
+
+		}
+		.cloud2{
+			position: absolute;
+			top: 5%;
+			left:-100px;
+			animation:car 55s reverse infinite linear;
+			}
+
+	  .cloud3{
+              position: absolute;
+              top:0%;
+              left:0;
+              animation:car 80s infinite linear;
+            
+		}
+		.crow1{
+			position: absolute;
+			top: 10%;
+			left: 0px;
+			right: 1px;
+			 animation:car 30s infinite linear;
+
+		}
+		.crow2{
+			position: absolute;
+			top: 10%;
+		   left: 0;
+			right: 1px;
+			animation:car 38s infinite linear;
+
+		}
+		.crow3{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+			animation:car 37s infinite linear;
+              	
+
+		}
+		.crow4{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+		 animation:car 33s infinite linear reverse;;
+             
+		}
+		.crow5{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+			 animation:car 29s infinite linear reverse;
+			}
+			.crow6{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+			 animation:car 31s infinite linear;
+              
+			}
+			.crow7{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+			animation:car infinite 36s linear reverse;
+			}
+			.crow8{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+			animation:car 29s infinite linear;
+             
+			}
+			.crow9{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+			animation:car 26s infinite linear reverse;
+			}
+			.crow10{
+			position: absolute;
+			top: 10%;
+			left: 0;
+			right: 1px;
+			animation:car 34s infinite linear;
+			}
+			.sun{
+				position: absolute;
+				top: 25px;
+				left: 30px;
+			}
+			
+		@keyframes car{
+			0%{
+				transform: translateX(-100%)
+			}
+			100%{
+				transform: translateX(650%)
+			}
+		}
